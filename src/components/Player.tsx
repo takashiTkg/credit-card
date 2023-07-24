@@ -1,6 +1,8 @@
 import file1 from '../assets/1.wav'
 import file2 from '../assets/2.wav'
 import file3 from '../assets/3.wav'
+import file4 from '../assets/4.wav'
+import file5 from '../assets/5.wav'
 type Props = {
   items: string[]
 }
@@ -13,6 +15,8 @@ export const Player = (props: Props) => {
       if (item === "ｸﾚｶｧ") playlist.push(file1)
       if (item === "不労所得ぅ") playlist.push(file2)
       if (item === "アメックスのブラックカードぉ") playlist.push(file3)
+      if (item === "ｺﾒﾀﾞｧ") playlist.push(file4)
+      if (item === "ｼﾛﾉﾜｰﾙｩ") playlist.push(file5)
     })
   }
   const play = () => {
@@ -32,7 +36,7 @@ export const Player = (props: Props) => {
   return (
     <div className='w-full'>
       <button
-        className="w-full bg-transparent hover:bg-red-500 text-red-700 font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded"
+        className="w-full hover:bg-transparent bg-red-500 hover:text-red-700 font-semibold text-white py-2 px-4 border hover:border-red-500 border-transparent rounded"
         onClick={play}
       >
         Play

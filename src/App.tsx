@@ -17,6 +17,8 @@ function App() {
         <Button text='ｸﾚｶｧ' onClickFunc={() => addItems('ｸﾚｶｧ')} />
         <Button text='不労所得ぅ' onClickFunc={() => addItems('不労所得ぅ')} />
         <Button text='アメックスのブラックカードぉ' onClickFunc={() => addItems('アメックスのブラックカードぉ')} />
+        <Button text='ｺﾒﾀﾞｧ' onClickFunc={() => addItems('ｺﾒﾀﾞｧ')} />
+        <Button text='ｼﾛﾉﾜｰﾙｩ' onClickFunc={() => addItems('ｼﾛﾉﾜｰﾙｩ')} />
         <button
           className='hover:bg-transparent bg-blue-500 hover:text-blue-700 font-semibold text-white py-2 px-4 border hover:border-blue-500 border-transparent rounded'
           onClick={clearItems}
