@@ -9,7 +9,7 @@ export const Lists: React.FC<Props> = (props) => {
       {
         props.items.map((item, i) => {
           return (
-            <div key={i} className="py-2 px-4 font-bold">
+            <div key={i} className="py-2 px-1 font-bold">
               {item.text}…
             </div>
           )
