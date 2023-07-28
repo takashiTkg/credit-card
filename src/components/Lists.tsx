@@ -1,5 +1,6 @@
+import { Dialogue } from "../dialogues";
 type Props = {
-  items: string[]
+  items: Dialogue[]
 }
 
 export const Lists: React.FC<Props> = (props) => {
@@ -9,7 +10,7 @@ export const Lists: React.FC<Props> = (props) => {
         props.items.map((item, i) => {
           return (
             <div key={i} className="py-2 px-4 font-bold">
-              {item}…
+              {item.text}…
             </div>
           )
         })
